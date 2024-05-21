@@ -1,0 +1,65 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"player": {
+			"type": "image",
+			"width": 63,
+			"height": 53,
+			"path": "image/player.png"
+		},
+		"shot": {
+			"type": "image",
+			"width": 16,
+			"height": 16,
+			"path": "image/shot.png"
+		},
+		"se": {
+			"type": "audio",
+			"path": "audio/se",
+			"systemId": "sound",
+			"duration": 250,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"iku": {
+			"type": "audio",
+			"path": "audio/iku",
+			"systemId": "sound",
+			"duration": 1672,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"explosion": {
+			"type": "image",
+			"path": "image/explosion.png",
+			"width": 800,
+			"height": 200
+		},
+		"takezou": {
+			"type": "image",
+			"path": "image/takezou.png",
+			"width": 112,
+			"height": 131
+		}
+	},
+	"moduleMainScripts": {},
+	"environment": {
+		"sandbox-runtime": "3"
+	}
+}
